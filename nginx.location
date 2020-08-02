@@ -1,0 +1,4 @@
+location = /flcmd/ {
+	include uwsgi_params;
+	uwsgi_pass unix:/srv/http/flcmd.sock;
+}
